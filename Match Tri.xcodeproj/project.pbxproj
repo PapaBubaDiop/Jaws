@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF5E05411DB8E21100AEE304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E05401DB8E21100AEE304 /* AppDelegate.swift */; };
+		DF5E05431DB8E21100AEE304 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E05421DB8E21100AEE304 /* ViewController.swift */; };
+		DF5E05461DB8E21100AEE304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5E05441DB8E21100AEE304 /* Main.storyboard */; };
+		DF5E05481DB8E21200AEE304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5E05471DB8E21200AEE304 /* Assets.xcassets */; };
+		DF5E054B1DB8E21200AEE304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5E05491DB8E21200AEE304 /* LaunchScreen.storyboard */; };
+		DF5E05561DB8E21300AEE304 /* Match_TriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E05551DB8E21300AEE304 /* Match_TriTests.swift */; };
+		DF5E05611DB8E21300AEE304 /* Match_TriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5E05601DB8E21300AEE304 /* Match_TriUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF5E05521DB8E21300AEE304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5E05351DB8E21000AEE304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5E053C1DB8E21000AEE304;
+			remoteInfo = "Match Tri";
+		};
+		DF5E055D1DB8E21300AEE304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF5E05351DB8E21000AEE304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5E053C1DB8E21000AEE304;
+			remoteInfo = "Match Tri";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF5E053D1DB8E21000AEE304 /* Match Tri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Match Tri.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5E05401DB8E21100AEE304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF5E05421DB8E21100AEE304 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF5E05451DB8E21100AEE304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF5E05471DB8E21200AEE304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF5E054A1DB8E21200AEE304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF5E054C1DB8E21200AEE304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5E05511DB8E21300AEE304 /* Match TriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Match TriTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5E05551DB8E21300AEE304 /* Match_TriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match_TriTests.swift; sourceTree = "<group>"; };
+		DF5E05571DB8E21300AEE304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5E055C1DB8E21300AEE304 /* Match TriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Match TriUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5E05601DB8E21300AEE304 /* Match_TriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match_TriUITests.swift; sourceTree = "<group>"; };
+		DF5E05621DB8E21300AEE304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF5E053A1DB8E21000AEE304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5E054E1DB8E21300AEE304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5E05591DB8E21300AEE304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF5E05341DB8E21000AEE304 = {
+			isa = PBXGroup;
+			children = (
+				DF5E053F1DB8E21000AEE304 /* Match Tri */,
+				DF5E05541DB8E21300AEE304 /* Match TriTests */,
+				DF5E055F1DB8E21300AEE304 /* Match TriUITests */,
+				DF5E053E1DB8E21000AEE304 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF5E053E1DB8E21000AEE304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF5E053D1DB8E21000AEE304 /* Match Tri.app */,
+				DF5E05511DB8E21300AEE304 /* Match TriTests.xctest */,
+				DF5E055C1DB8E21300AEE304 /* Match TriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF5E053F1DB8E21000AEE304 /* Match Tri */ = {
+			isa = PBXGroup;
+			children = (
+				DF5E05401DB8E21100AEE304 /* AppDelegate.swift */,
+				DF5E05421DB8E21100AEE304 /* ViewController.swift */,
+				DF5E05441DB8E21100AEE304 /* Main.storyboard */,
+				DF5E05471DB8E21200AEE304 /* Assets.xcassets */,
+				DF5E05491DB8E21200AEE304 /* LaunchScreen.storyboard */,
+				DF5E054C1DB8E21200AEE304 /* Info.plist */,
+			);
+			path = "Match Tri";
+			sourceTree = "<group>";
+		};
+		DF5E05541DB8E21300AEE304 /* Match TriTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF5E05551DB8E21300AEE304 /* Match_TriTests.swift */,
+				DF5E05571DB8E21300AEE304 /* Info.plist */,
+			);
+			path = "Match TriTests";
+			sourceTree = "<group>";
+		};
+		DF5E055F1DB8E21300AEE304 /* Match TriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF5E05601DB8E21300AEE304 /* Match_TriUITests.swift */,
+				DF5E05621DB8E21300AEE304 /* Info.plist */,
+			);
+			path = "Match TriUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF5E053C1DB8E21000AEE304 /* Match Tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5E05651DB8E21300AEE304 /* Build configuration list for PBXNativeTarget "Match Tri" */;
+			buildPhases = (
+				DF5E05391DB8E21000AEE304 /* Sources */,
+				DF5E053A1DB8E21000AEE304 /* Frameworks */,
+				DF5E053B1DB8E21000AEE304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Match Tri";
+			productName = "Match Tri";
+			productReference = DF5E053D1DB8E21000AEE304 /* Match Tri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF5E05501DB8E21300AEE304 /* Match TriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5E05681DB8E21300AEE304 /* Build configuration list for PBXNativeTarget "Match TriTests" */;
+			buildPhases = (
+				DF5E054D1DB8E21300AEE304 /* Sources */,
+				DF5E054E1DB8E21300AEE304 /* Frameworks */,
+				DF5E054F1DB8E21300AEE304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF5E05531DB8E21300AEE304 /* PBXTargetDependency */,
+			);
+			name = "Match TriTests";
+			productName = "Match TriTests";
+			productReference = DF5E05511DB8E21300AEE304 /* Match TriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF5E055B1DB8E21300AEE304 /* Match TriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5E056B1DB8E21300AEE304 /* Build configuration list for PBXNativeTarget "Match TriUITests" */;
+			buildPhases = (
+				DF5E05581DB8E21300AEE304 /* Sources */,
+				DF5E05591DB8E21300AEE304 /* Frameworks */,
+				DF5E055A1DB8E21300AEE304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF5E055E1DB8E21300AEE304 /* PBXTargetDependency */,
+			);
+			name = "Match TriUITests";
+			productName = "Match TriUITests";
+			productReference = DF5E055C1DB8E21300AEE304 /* Match TriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF5E05351DB8E21000AEE304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = vadim;
+				TargetAttributes = {
+					DF5E053C1DB8E21000AEE304 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2NK8684RJL;
+						ProvisioningStyle = Automatic;
+					};
+					DF5E05501DB8E21300AEE304 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2NK8684RJL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF5E053C1DB8E21000AEE304;
+					};
+					DF5E055B1DB8E21300AEE304 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2NK8684RJL;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF5E053C1DB8E21000AEE304;
+					};
+				};
+			};
+			buildConfigurationList = DF5E05381DB8E21000AEE304 /* Build configuration list for PBXProject "Match Tri" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF5E05341DB8E21000AEE304;
+			productRefGroup = DF5E053E1DB8E21000AEE304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF5E053C1DB8E21000AEE304 /* Match Tri */,
+				DF5E05501DB8E21300AEE304 /* Match TriTests */,
+				DF5E055B1DB8E21300AEE304 /* Match TriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF5E053B1DB8E21000AEE304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5E054B1DB8E21200AEE304 /* LaunchScreen.storyboard in Resources */,
+				DF5E05481DB8E21200AEE304 /* Assets.xcassets in Resources */,
+				DF5E05461DB8E21100AEE304 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5E054F1DB8E21300AEE304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5E055A1DB8E21300AEE304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF5E05391DB8E21000AEE304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5E05431DB8E21100AEE304 /* ViewController.swift in Sources */,
+				DF5E05411DB8E21100AEE304 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5E054D1DB8E21300AEE304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5E05561DB8E21300AEE304 /* Match_TriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5E05581DB8E21300AEE304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5E05611DB8E21300AEE304 /* Match_TriUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF5E05531DB8E21300AEE304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF5E053C1DB8E21000AEE304 /* Match Tri */;
+			targetProxy = DF5E05521DB8E21300AEE304 /* PBXContainerItemProxy */;
+		};
+		DF5E055E1DB8E21300AEE304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF5E053C1DB8E21000AEE304 /* Match Tri */;
+			targetProxy = DF5E055D1DB8E21300AEE304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF5E05441DB8E21100AEE304 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5E05451DB8E21100AEE304 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF5E05491DB8E21200AEE304 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5E054A1DB8E21200AEE304 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF5E05631DB8E21300AEE304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF5E05641DB8E21300AEE304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF5E05661DB8E21300AEE304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2NK8684RJL;
+				INFOPLIST_FILE = "Match Tri/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bashni.match.Match-Tri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DF5E05671DB8E21300AEE304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2NK8684RJL;
+				INFOPLIST_FILE = "Match Tri/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bashni.match.Match-Tri";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DF5E05691DB8E21300AEE304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2NK8684RJL;
+				INFOPLIST_FILE = "Match TriTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bashni.match.Match-TriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Match Tri.app/Match Tri";
+			};
+			name = Debug;
+		};
+		DF5E056A1DB8E21300AEE304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2NK8684RJL;
+				INFOPLIST_FILE = "Match TriTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bashni.match.Match-TriTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Match Tri.app/Match Tri";
+			};
+			name = Release;
+		};
+		DF5E056C1DB8E21300AEE304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2NK8684RJL;
+				INFOPLIST_FILE = "Match TriUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bashni.match.Match-TriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Match Tri";
+			};
+			name = Debug;
+		};
+		DF5E056D1DB8E21300AEE304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2NK8684RJL;
+				INFOPLIST_FILE = "Match TriUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bashni.match.Match-TriUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Match Tri";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF5E05381DB8E21000AEE304 /* Build configuration list for PBXProject "Match Tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5E05631DB8E21300AEE304 /* Debug */,
+				DF5E05641DB8E21300AEE304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5E05651DB8E21300AEE304 /* Build configuration list for PBXNativeTarget "Match Tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5E05661DB8E21300AEE304 /* Debug */,
+				DF5E05671DB8E21300AEE304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF5E05681DB8E21300AEE304 /* Build configuration list for PBXNativeTarget "Match TriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5E05691DB8E21300AEE304 /* Debug */,
+				DF5E056A1DB8E21300AEE304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF5E056B1DB8E21300AEE304 /* Build configuration list for PBXNativeTarget "Match TriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5E056C1DB8E21300AEE304 /* Debug */,
+				DF5E056D1DB8E21300AEE304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF5E05351DB8E21000AEE304 /* Project object */;
+}
