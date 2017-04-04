@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" colorMatched="YES" initialViewController="O31-qy-fNn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cookies.ttf">
+            <string>Cookies</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="YSo-f6-YKY">
+            <objects>
+                <navigationController id="O31-qy-fNn" sceneMemberID="viewController">
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6Yf-B2-fSZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4vy-za-vQr" kind="relationship" relationship="rootViewController" id="q2h-5w-tfh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k5S-7A-Zt7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2610" y="-77"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Mxj-vI-HhN">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="4vy-za-vQr" customClass="ViewController" customModule="Crash_Mesh_Saga" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6A6-zA-SBE">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="g_1.png" id="Azp-Eh-PSB">
+                                <frame key="frameInset" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QEF-2V-tP1">
+                                <frame key="frameInset" minX="252" minY="258" width="120" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Cookies" family="Cookies" pointSize="31"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="-140" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Easy" backgroundImage="g_10.png">
+                                    <color key="titleColor" red="0.91860777140000005" green="0.59051620959999995" blue="0.53430992359999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="easyTapped:" destination="4vy-za-vQr" eventType="touchUpInside" id="cfI-HD-caz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="un4-bU-0OU">
+                                <frame key="frameInset" minX="376" minY="643" width="272" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="0.42851027400000002" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Cookies" family="Cookies" pointSize="37"/>
+                                <state key="normal" title="Watch Ads"/>
+                                <connections>
+                                    <action selector="adsTapped:" destination="4vy-za-vQr" eventType="touchUpInside" id="kTB-Rc-7fI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" id="7K3-aZ-lWD">
+                                <frame key="frameInset" minX="44" minY="34" width="233" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Cookies" family="Cookies" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="2.5629997253417969e-05" blue="8.7022781372070312e-06" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.20000000298023224" contentMode="scaleToFill" image="b_4.png" id="iqT-b0-aHJ">
+                                <frame key="frameInset" minX="636" minY="89" width="624" height="679"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="0kj-Gq-hia">
+                                <frame key="frameInset" minX="651" minY="258" width="120" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Cookies" family="Cookies" pointSize="31"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="-140" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Hard" backgroundImage="g_11.png">
+                                    <color key="titleColor" red="0.91860777140000005" green="0.59051620959999995" blue="0.53430992359999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="hardTapped:" destination="4vy-za-vQr" eventType="touchUpInside" id="FCT-fM-xJ6"/>
+                                </connections>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="100" contentMode="scaleToFill" image="butt_3.png" id="TjC-Fq-rvy">
+                                <frame key="frameInset" minX="52" minY="18" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="eoM-B6-akP">
+                                <frame key="frameInset" minX="905" minY="10" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="butt_4.png"/>
+                                <connections>
+                                    <segue destination="Ay6-wd-fWG" kind="push" id="xH5-X9-9ax"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jhe-pX-boF"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="adsButton" destination="un4-bU-0OU" id="8Vf-6D-0F7"/>
+                        <outlet property="easyButton" destination="QEF-2V-tP1" id="moT-Mp-Fda"/>
+                        <outlet property="hardButton" destination="0kj-Gq-hia" id="5Pn-xN-cw9"/>
+                        <outlet property="soundSlider" destination="7K3-aZ-lWD" id="Vfy-Xk-5lX"/>
+                        <outlet property="soundVolumeButton" destination="TjC-Fq-rvy" id="XQy-Kp-rz2"/>
+                        <outlet property="topButton" destination="eoM-B6-akP" id="MNN-7B-I2r"/>
+                        <outlet property="view" destination="Azp-Eh-PSB" id="i1c-if-0Ha"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cr2-N9-kiW" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-890" y="-512"/>
+        </scene>
+        <!--Amount View Controller-->
+        <scene sceneID="eOD-9e-z40">
+            <objects>
+                <viewController storyboardIdentifier="AmountViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ay6-wd-fWG" customClass="AmountViewController" customModule="Crash_Mesh_Saga" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h1u-AS-3iv">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="b_22.png" id="98S-hY-RH7">
+                                <frame key="frameInset" width="1024" height="768"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <webView contentMode="scaleToFill" id="IYU-Wo-eqt">
+                                <frame key="frameInset" minY="68" width="1024" height="636"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aH8-nV-cu3">
+                                <frame key="frameInset" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="21"/>
+                                <state key="normal" backgroundImage="butt_1.png">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="exitTapped:" destination="Ay6-wd-fWG" eventType="touchUpInside" id="VOf-OD-eUZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="NWN-Dy-B94">
+                                <frame key="frameInset" minX="944" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="21"/>
+                                <state key="normal" backgroundImage="butt_2.png">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="refreshTapped:" destination="Ay6-wd-fWG" eventType="touchUpInside" id="Vj2-nV-aL9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ere-KI-kHq"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="exitButton" destination="aH8-nV-cu3" id="ygC-Qa-3db"/>
+                        <outlet property="refreshButton" destination="NWN-Dy-B94" id="shk-qA-LXS"/>
+                        <outlet property="webView" destination="IYU-Wo-eqt" id="kqQ-S2-3rd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="en7-x6-bGc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="249" y="-512"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="b_22.png" width="640" height="1136"/>
+        <image name="b_4.png" width="870" height="984"/>
+        <image name="butt_1.png" width="120" height="120"/>
+        <image name="butt_2.png" width="150" height="150"/>
+        <image name="butt_3.png" width="120" height="120"/>
+        <image name="butt_4.png" width="120" height="120"/>
+        <image name="g_1.png" width="197" height="139"/>
+        <image name="g_10.png" width="400" height="900"/>
+        <image name="g_11.png" width="400" height="900"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
